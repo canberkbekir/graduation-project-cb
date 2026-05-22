@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "HAIPro",
+	"Description": "Advanced AI plugin with a ready to use perception system, runtime control of Behavior Trees and State Trees from a single component, token based NPC task prioritization, and example tasks for both Behavior Tree and State Tree.",
+	"Category": "AI",
+	"CreatedBy": "Haktan Cagri Kodat",
+	"CreatedByURL": "https://www.linkedin.com/in/haktan-%C3%A7a%C4%9Fr%C4%B1-kodat-3b01b7297/",
+	"DocsURL": "https://github.com/haktan313/HAIPro",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HAIPro",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		}
+	]
+}
