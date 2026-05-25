@@ -76,3 +76,4 @@ DerivedDataCache/*
 .idea/
 
 Source/RizzGame/.claude/
+.claude/
